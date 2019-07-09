@@ -5,3 +5,11 @@
     float: left;
     margin-right: 25px; 
 }
+
+.thumbnail {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
