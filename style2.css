@@ -6,10 +6,23 @@
     margin-right: 25px; 
 }
 
-.thumbnail {
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    float: left;
-    margin-right: 25px;
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #666;
+    color: #fff;
+    padding: 30px 0;
+    clear: both;
+    border-top: 8px solid #4aaaa5;
+    color: #ccc;
+    font-size: 12px;
+    text-align: center;
 }
