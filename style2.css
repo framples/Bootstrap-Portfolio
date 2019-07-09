@@ -26,3 +26,8 @@ footer {
     font-size: 12px;
     text-align: center;
 }
+
+h5 {
+    color: black;
+    font-weight: bold;
+}
